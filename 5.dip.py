@@ -10,6 +10,16 @@ There comes a point in software development where our app will be largely
 composed of modules.  When this happens, we have to clear things up by using
 dependency injection.  High-level components depending on low-level components
 to function.
+
+
+In programming, the dependency inversion principle is a way to decouple software modules.
+
+This principle states that:
+    High-level modules should not depend on low-level modules. Both should depend on abstractions.
+    Abstractions should not depend on details. Details should depend on abstractions.
+
+To comply with this principle, we need to use a design pattern known as a dependency inversion pattern, 
+most often solved by using dependency injection.
 """
 
 class XMLHttpService(XMLHttpRequestService):
