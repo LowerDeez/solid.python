@@ -5,6 +5,9 @@ Make fine grained interfaces that are client specific Clients should not be
 forced to depend upon interfaces that they do not use.  This principle deals
 with the disadvantages of implementing big interfaces.
 
+Put more simply: Do not add additional functionality to an existing interface by adding new methods.
+Instead, create a new interface and let your class implement multiple interfaces if needed.
+
 Let’s look at the below IShape interface:
 """
 
